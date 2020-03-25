@@ -1,0 +1,201 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%; height: 12vh;
+    background: orangered;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.left{
+    padding-left: 80px;
+    font-family: 'Oxygen', sans-serif;
+
+    font-size: 15px;
+    
+}
+.right{
+    width: 40%;
+    padding-right: 30px;
+    
+}
+.right ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.right ul li a{
+    color: white; font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+}
+.main{
+    margin-top: 12vh; width: 100%; height: 70vh; background: orangered; color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+    
+}
+.main h1{ display: flex; justify-content: space-around; align-items: center;
+    font-family: 'Yatra One', cursive; font-size: 170px;
+}
+.main h2{
+    padding-top: 50px; padding-left: 200px;
+    font-family: 'Rasa', serif;
+    font-size: 30px;
+}
+.main h3{
+    padding-left: 1090px; 
+    font-family: 'Rasa', serif;
+    font-size: 30px;
+}
+.heading{ width: 100%; height: 40vh;
+          display: flex; justify-content: space-around;
+          align-items: center; font-family: 'Merriweather', serif;
+}
+.gal1{ width: 100%; height: 35vh;
+    display: flex; justify-content: space-around;
+}
+.one{
+   border: 1px solid black;
+}
+.two{
+    border: 1px solid black;
+}
+.three{
+    border: 1px solid black;
+}
+.four{
+    border: 1px solid black;
+}
+.gal2{ width: 100%; height: 35vh;
+    display: flex; justify-content: space-around;
+    margin-top: 30px;
+}
+.five{
+    border: 1px solid black;
+}
+.six{
+    border: 1px solid black;
+}
+.seven{
+    border: 1px solid black;
+}
+.eight{
+    border: 1px solid black;
+}
+.events{
+    width: 100%; height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Merriweather', serif;
+}
+.eve1{ width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.fxn1{ height: 40vh;
+    border: 2px solid red;
+    padding-top: 70px;
+    
+}
+.fxn2{ height: 40vh;
+    border: 2px solid red;
+    padding-top: 70px;
+
+}
+.fxn3{
+    height: 40vh;
+    border: 2px solid red;
+    padding-top: 70px;
+}
+.eve2{
+    width: 100%; 
+    display: flex; justify-content: space-around;
+    text-align: center; align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+.fxn4{
+    height: 40vh;
+    border: 2px solid red;
+    padding-top: 80px;
+}
+.fxn5{
+    height: 40vh;
+    border: 2px solid red;
+    padding-top: 80px;
+}
+.contact{
+    width: 100%; height: 40vh;
+          display: flex; justify-content: space-around;
+          align-items: center; font-family: 'Merriweather', serif;
+}
+.details{
+    width: 100%; height: 50vh;
+    background: orangered;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+}
+.details h2,h3{
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.cpyright{
+    width: 100%; height: 12vh;
+    display: flex; justify-content: space-around;
+    background: orangered; color: white;
+    font-family: 'Raleway', sans-serif;
+}
+/*mobile version code */
+@media  screen and (max-width:720px)
+{
+    .nav{ width: 100%; height: 30vh;
+        display: flex; flex-direction: column;
+        align-items: center;
+
+    }
+    .left{
+        display: flex; align-items: center;
+
+        border-bottom: 1px solid white;
+        padding: 15px;
+    }
+    .right ul{
+        display: flex; flex-direction: column;
+        align-items: center; 
+        border-bottom: 1px solid white;
+        padding: 15px;
+    }
+    .main{
+        width: 100%; height: 80vh;  margin-top: 30vh;
+    }
+    .main h1{ display: flex; justify-content: space-around; align-items: center;
+        font-family: 'Yatra One', cursive; font-size: 70px;
+    }
+    .main h2{
+        padding-right: 160px;
+        font-family: 'Rasa', serif;
+        font-size: 15px;
+    }
+    .main h3{
+        font-family: 'Rasa', serif;
+        font-size: 15px;
+    }
+   
+
+
+
+
+
+
+}
